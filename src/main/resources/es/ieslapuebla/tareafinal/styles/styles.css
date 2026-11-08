@@ -1,0 +1,49 @@
+#principal {
+    -fx-background-color: #ffffff;
+}
+
+
+#label-titulo, #label-email {
+    -fx-font-weight: bold;
+    -fx-font-size: 16px;
+    -fx-text-fill: #2c3f4a;
+}
+
+#nombre, #email {
+    -fx-max-width: Infinity;
+    -fx-padding: 3 5 3 5;
+    -fx-background-color: #d9ddde;
+    -fx-background-radius: 3px;
+    -fx-font-size: 14px;
+}
+
+#temperatura {
+    -fx-font-weight: bold;
+    -fx-font-size: 17px;
+    -fx-text-fill: #2c3f4a;
+}
+
+#boton {
+    -fx-background-color: #d9ddde;
+    -fx-background-radius: 3px;
+    -fx-border-radius: 3px;
+    -fx-border-color: #2c3f4a;
+    -fx-min-width: 30px;
+    -fx-text-fill: #2c3f4a;
+    -fx-font-weight: bold;
+    -fx-font-size: 16px;
+}
+
+#boton:hover {
+    -fx-border-color: #0c0cab;
+}
+
+#buscar {
+    -fx-min-height: 35px;
+    -fx-min-width: 300px;
+}
+
+#resultado {
+    -fx-font-size: 14px;
+    -fx-text-fill: #2c3f4a;
+}
